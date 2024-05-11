@@ -138,21 +138,19 @@ function App() {
             </p>
           </div>
         </div>
-        <div className=" row-span-11 md:py-10 px-7 grid grid-rows-6 md:grid-rows-3 gap-8">
-          <div className=" row-span-2 md:row-span-1 grid grid-cols-7 gap-3">
-            <div className=" col-span-3 border-2 border-slate-500 rounded-xl p-2 md:p-8 flex flex-col items-start justify-around h-3/4 md:h-full">
-              <h4 className=" text-base md:text-2xl">
-                Manage your docs seamlessly
-              </h4>
-              <button className=" w-fit h-fit border-2 border-slate-500 rounded-lg md:py-1 px-2 md:px-4">
+        <div className=" row-span-11 md:py-10 px-7 grid grid-rows-7 md:grid-rows-3 gap-8">
+          <div className=" row-span-3 md:row-span-1 grid grid-cols-6 md:grid-cols-7 gap-3">
+            <div className=" col-span-full md:col-span-3 border-2 border-slate-500 rounded-xl p-6 flex flex-col items-start justify-around h-full">
+              <h4 className="text-3xl pb-4">Manage your docs seamlessly</h4>
+              <button className=" free-try-btn w-fit h-fit rounded-lg py-2 px-4 flex items-center justify-center">
                 Try free now
               </button>
             </div>
-            <div className=" col-span-2 border-2 border-slate-500 rounded-xl p-2 md:p-8 flex flex-col items-start justify-around h-3/4 md:h-full">
+            <div className=" col-span-3 md:col-span-2 border-2 border-slate-500 rounded-xl p-8 flex flex-col items-start justify-around h-full">
               <h4 className=" text-lg md:text-2xl">Total Batches</h4>
               <p className=" text-2xl md:text-5xl font-semibold">4</p>
             </div>
-            <div className=" col-span-2 border-2 border-slate-500 rounded-xl p-2 md:p-8 flex flex-col items-start justify-around h-3/4 md:h-full">
+            <div className=" col-span-3 md:col-span-2 border-2 border-slate-500 rounded-xl p-8 flex flex-col items-start justify-around h-full">
               <h4 className=" text-lg md:text-2xl">Total Docs Dropped</h4>
               <p className=" text-2xl md:text-5xl font-semibold">135</p>
             </div>

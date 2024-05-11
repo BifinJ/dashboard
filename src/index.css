@@ -35,6 +35,10 @@
     overflow-x: hidden;
 }
 
+.free-try-btn{
+    background: #00b6ec;
+    color: #fff;
+}
 
 @media screen and (max-width: 769px) {
     .dashboard{
