@@ -44,7 +44,7 @@ function App() {
       title: "hackathon5",
       college: "college5",
       date: "20/05/2024",
-      noCerti: "25",
+      noCerti: "50",
       link: "https://pindown.app/docs/43e215fsff",
     },
   ];
