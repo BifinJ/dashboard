@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard{
+    background: radial-gradient(circle at 0% 50%, white 0%, transparent 30%), radial-gradient(circle at 80% 50%, #b1f7f6 80%, transparent 100%);
+}
+
+.top-nav{
+    background: linear-gradient(90deg, #befaf9, #6DEEEC);
+    z-index: 10;
+}
+
+.profile-dropdown{
+    top: -80px;
+    z-index: -1;
+    transition: all ease-in-out 0.5s;
+}
+.profile-dropdown-active{
+    top: 65px;
+    z-index: 0;
+    background: #14ddda;
+    opacity: 0.9;
+    box-shadow: 6px 6px 10px 2px rgba(18, 18, 18, 0.50);
+    backdrop-filter: blur(8px);
+    transition: all ease-in-out 0.5s;
+}
+.events>p, .events>input {
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width: 769px) {
+    .dashboard{
+        position: relative;
+    }
+    .ver-line, .close{
+        display: block;
+    }
+    .close-mark, .ver{
+        display: none;
+    }
+    .sidebar{
+        position: fixed;
+        top: 0;
+        left: -185px;
+        padding-right: 15px;
+        background: #6DEEEC;
+        transition: all ease-in-out 0.3s;
+    }
+    .sidebar-active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #6DEEEC;
+        transition: all ease-in-out 0.3s;
+        z-index: 20;
+        padding-top: 6px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .dashboard{
+        position: static;
+    }
+    .ver-line, .close-mark, .ver, .close{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .event-container{
+        overflow-x: scroll;
+    }
+}
