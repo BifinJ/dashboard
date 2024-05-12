@@ -123,17 +123,17 @@ function App() {
           }`}
         >
           <div className=" w-full h-full flex items-center justify-start px-4 border-b-2 border-slate-400 cursor-pointer">
-            <p className=" text-base hover:scale-110 transition-all ease-in-out">
+            <p className=" text-base hover:scale-110 transition-all ease-in-out" onClick={() => setActive(!active)} >
               Public Profile
             </p>
           </div>
           <div className=" w-full h-full flex items-center justify-start px-4 border-b-2 border-slate-400 cursor-pointer">
-            <p className=" text-base hover:scale-110 transition-all ease-in-out">
+            <p className=" text-base hover:scale-110 transition-all ease-in-out" onClick={() => setActive(!active)}>
               Logout
             </p>
           </div>
           <div className=" w-full h-full flex items-center justify-start px-4 cursor-pointer">
-            <p className=" text-base hover:scale-110 transition-all ease-in-out">
+            <p className=" text-base hover:scale-110 transition-all ease-in-out" onClick={() => setActive(!active)}>
               Preferences
             </p>
           </div>
