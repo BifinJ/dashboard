@@ -91,7 +91,7 @@ function App() {
           }  absolute right-0 top-1/2`}
         />
       </div>
-      <div className=" w-full h-full grid grid-rows-12 gap-1 col-span-12 md:col-span-10">
+      <div className=" right-dash w-full h-full grid grid-rows-12 gap-1 col-span-12 md:col-span-10">
         <div className=" top-nav row-span-1 grid grid-cols-8 border-b-2 border-slate-500 px-4 relative">
           <div className=" col-span-4 md:col-span-4 flex items-center justify-start">
             <h1 className=" font-medium text-2xl">Dashboard</h1>

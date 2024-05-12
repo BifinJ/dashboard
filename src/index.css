@@ -40,6 +40,12 @@
     color: #fff;
 }
 
+@media screen and (width: 768px) {
+    .right-dash{
+        grid-column: span 12 / span 12 !important;
+    }
+}
+
 @media screen and (max-width: 769px) {
     .dashboard{
         position: relative;
